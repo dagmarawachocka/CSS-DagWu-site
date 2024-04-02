@@ -113,40 +113,8 @@ a {
   margin: 50px auto;
 }
 
-.bottom-container {
-  background-color: #66BFBF;
-  margin: 100px auto 0;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.footer-link {
-  padding-left: 15px;
-  padding-right: 15px;
-  text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.footer-link:hover {
-  color: #EAF6F6;
-}
-
-.dwachocka {
-  margin-bottom: 0;
-  margin-top: 40px;
-  color: white;
-  font-size: 12px;
-}
-
 .btn {
-  background: #11cdd4;
-  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
   background-image: linear-gradient(to bottom, #11cdd4, #11999e);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
   border-radius: 8px;
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
@@ -158,11 +126,41 @@ a {
 }
 
 .btn:hover {
-  background: #30e3cb;
-  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
+}
+
+.footer-container {
+  background-color: #66BFBF;
+  padding: 20px 0;
+}
+
+.links-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 30px;
+}
+
+.links-container a {
+  padding-left: 15px;
+  padding-right: 15px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.links-container a:hover {
+  color: #EAF6F6;
+}
+
+.github {
+  margin-bottom: 0;
+  margin-top: 40px;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.github:hover {
+  color: #11999E;
 }
